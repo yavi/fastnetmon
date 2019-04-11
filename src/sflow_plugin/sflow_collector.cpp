@@ -45,7 +45,7 @@ std::string sflow_lua_hooks_path = "/usr/src/fastnetmon/src/sflow_hooks.lua";
 uint32_t sflow_qinq_ethertype = 0x8100;
 
 // Disable QinQ processing by default
-bool sflow_qinq_process = false;
+bool sflow_qinq_process = true;
 
 // sFLOW v4 specification: http://www.sflow.org/rfc3176.txt
 
